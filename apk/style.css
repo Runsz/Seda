@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 40%;
+  margin: 70px auto;
+  text-align: center;
+  background-color: rgb(0, 183, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px grey;
+}
+.container form {
+  width: 67%;
+  margin: auto;
+  text-align: left;
+}
+.container label {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.container input {
+  width: 45%;
+  height: 20px;
+  border-radius: 3px;
+  border: 0;
+}
+.container .durasi {
+  width: 35%;
+}
+.container select {
+  width: 46%;
+  height: 25px;
+  border-radius: 3px;
+  border: 0;
+}
+.container .btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.container button {
+  width: 25%;
+  padding: 7px;
+  margin: 5px;
+  border: 0;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+.container .reset {
+  background-color: #ff0000;
+  color: #fff;
+}
+.container .simpan {
+  background-color: #4e8b01;
+  color: #fff;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+.wrapper h1 {
+  text-align: center;
+}
+.wrapper .atas {
+  display: flex;
+}
+.wrapper tr,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.wrapper table {
+  border-collapse: collapse;
+  text-align: center;
+}
+.wrapper thead {
+  background-color: rgb(0, 183, 255);
+  font-weight: 500;
+}
+.wrapper .sort {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.wrapper .search {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.wrapper .sort button,
+.search button {
+  padding: 10px;
+  border: 0;
+  background-color: rgb(0, 183, 255);
+  border-radius: 5px;
+  font-size: 11pt;
+}
+.wrapper .search input {
+  height: 25px;
+  margin-right: 10px;
+  width: 170px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.wrapper td button {
+  border: 0;
+  padding: 5px;
+  color: #fff;
+}
+.wrapper td .setuju {
+  background-color: #4e8b01;
+  border-radius: 3px;
+}
+.wrapper td .hapus {
+  background-color: #ff0000;
+  border-radius: 3px;
+}
